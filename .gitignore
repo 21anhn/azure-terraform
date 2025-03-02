@@ -1,0 +1,20 @@
+# Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# Crash logs
+crash.log
+
+# Terraform plan files
+*.tfplan
+
+# Terraform lock file (used for dependency locking)
+.terraform.lock.hcl
+
+# Local Terraform directories
+.terraform/
+terraform.tfvars
+terraform.tfvars.json
+
+# Ignore output directories if using remote state storage
+**/terraform.tfstate.d/
